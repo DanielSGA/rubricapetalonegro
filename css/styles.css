@@ -1,0 +1,39 @@
+.firstHeader {
+    font-family: 'Montserrat';
+    color: white;
+    /*text-align: center;*/
+    background-color: black;
+    padding: 25px 30px 30px 30px;
+    font-size: 30px;
+   /* margin: -10px;*/
+}
+
+.herra {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.desc {
+    font-family: 'Montserrat';
+    margin: 35px 20px 35px;
+}
+
+.instr {
+    font-family: 'Montserrat';
+    margin: 0px 20px 20px;
+    font-weight: bolder;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.num {
+    text-align: center;
+}

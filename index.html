@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Evaluación de ideas</title>
+    <div class="firstHeader">
+        <img src="img/EDlogo-02.png" alt="" height="42" width="150">
+        <span class="herra">EVALUACIÓN DE IDEAS</span>
+</div>
 </head>
 <body>
+
+    <div class="desc">Rúbrica para evaluar ideas provenientes de alumnos para Gravity</div>
+    <div class="desc">Llena los rubros de acuerdo a las características de tu idea, donde:<br></div>
+    <div class="instr">5 - Sí aplica, 4 - Buena idea, 3 - Regular, 2 - Aplica poco, 1 - No aplica</div>
+
+    <table style="width:75%">
+            <tr>
+              <th>Criterio/Puntuación</th>
+              <th class="num">5</th> 
+              <th class="num">4</th>
+              <th class="num">3</th>
+              <th class="num">2</th>
+              <th class="num">1</th>
+              <th class="num">Puntaje</th>
+            </tr>
+            <tr>
+                <td>Necesidad</td>
+            </tr>
+            <tr>
+                <form action="radio">
+                    <td>1. Lo que se ofrece satisface una necesidad</td>
+                    <td class="num"><input type="radio" name="5" value="5"></td>
+                    <td class="num"><input type="radio" name="4" value="4"></td> 
+                    <td class="num"><input type="radio" name="3" value="3"></td> 
+                    <td class="num"><input type="radio" name="2" value="2"></td> 
+                    <td class="num"><input type="radio" name="1" value="1"></td> 
+                </form>
+              <td class="num">Valor</td>
+            </tr>
+            <tr>
+                <form action="radio">
+                    <td>2. Está orientada a satisfacer al usuario</td>
+                    <td class="num"><input type="radio" name="5" value="5"></td>
+                    <td class="num"><input type="radio" name="4" value="4"></td> 
+                    <td class="num"><input type="radio" name="3" value="3"></td> 
+                    <td class="num"><input type="radio" name="2" value="2"></td> 
+                    <td class="num"><input type="radio" name="1" value="1"></td> 
+                </form>
+              <td class="num">Valor</td>
+            </tr>
+            <tr>
+                <form action="radio">
+                    <td>3. Enfrenta una problemática actual para los alumnos</td>
+                    <td class="num"><input type="radio" name="5" value="5"></td>
+                    <td class="num"><input type="radio" name="4" value="4"></td> 
+                    <td class="num"><input type="radio" name="3" value="3"></td> 
+                    <td class="num"><input type="radio" name="2" value="2"></td> 
+                    <td class="num"><input type="radio" name="1" value="1"></td> 
+                </form>
+              <td class="num">Valor</td>
+            </tr>
+    </table>
     
 </body>
 </html>
