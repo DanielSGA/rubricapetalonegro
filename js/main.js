@@ -1,8 +1,7 @@
-var radios = document.getElementsByClassName('num1');
-for(i=0; i<radios.length; i++ ) {
-    radios[i].onclick = function(e) {
-        if(e.ctrlKey) {
-            this.checked = false;
-        }
-    }
-}
+//let calButton = document.getElementById("btn_cal");
+let cleanButton = document.getElementById("btn_clean")
+//let resDiv = document.getElementById("res");
+
+cleanButton.addEventListener("click", function() {
+    window.location.reload();
+});
